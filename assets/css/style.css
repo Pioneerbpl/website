@@ -1,5 +1,11 @@
 body{
-  font-family: 'Noto Sans', sans-serif ;
+  font-family: 'roboto','Noto Sans', sans-serif ;
+}
+
+body::before{
+  display:block;
+  content:'';
+  height:56px;
 }
 
 
@@ -87,9 +93,9 @@ body{
   cursor: pointer;
 }
 
-.banner-top {
+/* .banner-top {
   margin-top: 56px;
-}
+} */
 
 
 
@@ -105,4 +111,8 @@ body{
 
 .modal-footer{
   justify-content: space-between;
+}
+
+.p-navbar{
+  background-color: #a11b27 !important;
 }
