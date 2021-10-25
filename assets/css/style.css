@@ -67,10 +67,8 @@ body::before{
 .exam-grid{
   /* grid-column-gap: 1rem;
   justify-content: space-between; */
-  grid-column-gap: 3rem;
-  flex-wrap: wrap;
-
- 
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
 }
 
 .carosel-card{
@@ -78,8 +76,6 @@ body::before{
 }
 
 .v-card-main {
-  
-
   transition: 0.25s ease;
   padding-left: 0px !important;
   padding-right: 0px !important;
