@@ -132,6 +132,21 @@ margin:0 10px 0 -28px;
 color: #17aa1c;
 } */
 
-.check_list{
+ul.check_list{
   list-style-type: none;
+  list-style-position: outside;
 }
+
+.nav-link{
+  color:white !important;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+.nav-link:hover{
+  
+  border-bottom: 3px solid white;
+  
+}
+
+
