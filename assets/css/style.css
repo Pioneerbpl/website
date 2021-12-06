@@ -8,7 +8,18 @@ body::before{
   height:69px;
 }
 
+h1{
+  font-size: 3.5rem;
+}
 
+h2{
+  font-size: 2.5rem;
+
+}
+
+h3{
+  font-size: 1.875rem;
+}
 
 #grad {
   /* background-image: linear-gradient(to left, rgba(83, 247, 7, 0), rgba(0, 123, 255, 0.2)); */
@@ -153,7 +164,11 @@ ul.check_list{
   background-color: #fff !important;
 }
 
-
+/* .fixed-bottom {
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 0 !important;
+} */
 
 
 
